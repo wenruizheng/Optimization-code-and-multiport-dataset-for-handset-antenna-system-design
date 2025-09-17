@@ -12,3 +12,27 @@ The framework enables automated optimization and evaluation of antenna systems u
 - Example `main.m` script to reproduce optimization results.
 
 ## File Structure
+multiportrdata/
+│── main.m # Main script to run optimization
+│── CalObj.m # Objective function calculation
+│── GA.m # Genetic Algorithm operators
+│── EnvironmentalSelection.m # NSGA-III environmental selection
+│── TournamentSelection.m # Tournament selection operator
+│── NDSort.m # Non-dominated sorting
+│── UniformPoint.m # Reference point generation
+│── funfun.m # Initial population generator
+│── obj_key.m # Decode chromosome to topology
+│── shape_data.m # Data reshaping utilities
+│── load_S_matrix.m # Load scattering matrix data
+│── chromo.mat # Example chromosome dataset
+│── Matrix&Target.mat # Pre-computed matrix & targets
+│── num_feeds.mat # Predefined configuration
+│── synthesized_pattern_3d.mat # 3D synthesized pattern data
+
+
+## Requirements
+- MATLAB R2020a or later  
+
+
+   git clone https://github.com/wenruizheng/Optimization-code-and-multiport-dataset-for-handset-antenna-system-design.git
+   cd Optimization-code-and-multiport-dataset-for-handset-antenna-system-design
