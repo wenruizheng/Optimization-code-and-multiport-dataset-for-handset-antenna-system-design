@@ -12,7 +12,7 @@ The framework enables automated optimization and evaluation of antenna systems u
 - Example `main.m` script to reproduce optimization results.
 
 ## File Structure
-multiportrdata/
+multiportrdata_farfield/
 │── main.m # Main script to run optimization
 │── CalObj.m # Objective function calculation
 │── GA.m # Genetic Algorithm operators
@@ -22,9 +22,6 @@ multiportrdata/
 │── UniformPoint.m # Reference point generation
 │── funfun.m # Initial population generator
 │── obj_key.m # Decode chromosome to topology
-│── shape_data.m # Data reshaping utilities
-│── load_S_matrix.m # Load scattering matrix data
-│── chromo.mat # Example chromosome dataset
 │── Matrix&Target.mat # Pre-computed matrix & targets
 │── num_feeds.mat # Predefined configuration
 │── synthesized_pattern_3d.mat # 3D synthesized pattern data
